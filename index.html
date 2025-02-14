@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Roman Numeral Converter</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="intro">
+      <h1>Roman Numeral Converter</h1>
+    </div>
+    <div class="paragraph">
+      Easily convert any <i>"Natural"</i> number to roman numerals (i.e. Any
+      number greater than or equal to 1, not including decimal numbers.). Simply
+      type in your number and press <strong>"Enter"</strong> or click on the
+      convert button.
+    </div>
+    <div class="number-input">
+      <div class="text">Enter your number here:</div>
+      <div class="form">
+        <form name="roman-converter">
+          <div class="input">
+            <input id="number" type="number" name="arabic" />
+          </div>
+          <div class="button">
+            <button
+              id="convert-btn"
+              type="submit"
+              onclick="return false;"
+              name="arabic"
+            >
+              Convert
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="output"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
